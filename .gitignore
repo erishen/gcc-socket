@@ -1,0 +1,5 @@
+# 排除所有以 http_server 开头的文件或目录
+http_server*
+
+# 但不要排除以 http_server 开头且以 .c 结尾的文件
+!http_server*.c
