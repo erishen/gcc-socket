@@ -4,7 +4,7 @@
 #include <unistd.h>
 #include <arpa/inet.h>
 
-#define PORT 8080
+#define PORT 8089
 #define BUFFER_SIZE 1024
 
 const char *response_template =
